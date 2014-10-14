@@ -1,0 +1,30 @@
+table	{
+
+margin: 10% 30% 10% 40%;
+/*top right bottom left*/
+
+}
+
+tr, td	{
+
+padding: 0 20px 5px 0;
+
+}
+
+.wdth	{
+
+width: 90%;
+
+}
+
+.wd	{
+
+width: 87%;
+
+}
+
+.sbmt	{
+
+line-height: 4;
+
+}

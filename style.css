@@ -1,0 +1,263 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0 auto; 
+	padding: 0;
+}
+body  {
+	font-family:"trebuchet ms" Arial, Helvetica, sans-serif;
+	background:#fff url(images/bg.jpg) repeat-x;
+	text-align: center;
+	color: #333;
+	font-size:13px;
+	font-variant:normal;
+}
+
+h1{ 
+	font:20px "trebuchet ms"tahoma;
+	text-align:center;
+	color:#333;
+}
+
+p{ 
+	padding-bottom:8px;
+	
+
+}
+
+h2{
+	font:23px "trebuchet ms"tahoma;
+	text-transform:capitalize;
+	padding:5px 0;
+}
+
+h3{ 
+	font-size:13px;
+	color:#333;
+	padding-top:3px;
+
+}
+
+h4{ 
+	font-size:13px; text-decoration:underline;
+}
+
+.date{ 
+	font-style:italic; 
+	text-decoration:underline;
+	font-size:14px;
+}
+
+.posted{
+	font-style:italic; 
+	font-size:13px;
+	padding-top:8px;
+	text-align:right;
+}
+
+/* ------------------------ menu------------------------- */
+
+
+#submenu{
+	margin-top:5px;
+	margin-bottom:10px;
+}
+#submenu ul{ 
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+#submenu li{ 
+	margin:0 7px 0 7px;
+	list-style:none;
+	border-bottom:1px dotted #ccc;
+}
+	
+#submenu li a{
+	font:bold 13px "trabuchet ms",Arial, Helvetica, sans-serif;
+	list-style:none;
+	padding:6px 12px 6px 5px;
+	color:#333;
+	display: block;
+	background:url(images/bullets2.gif) 5px 13px no-repeat;
+	text-decoration:none;
+	cursor: pointer;
+
+}
+
+#submenu li a:hover{ 
+	color:#F59002;
+}
+
+
+
+
+/* ------------------------ Start of header layout ------------------------- */
+.wrapper #container { 
+	width: 800px;
+	margin: 0 auto; 
+	text-align: left;
+	background:#fff url(images/menu_top.jpg) no-repeat;
+	background-position:0px 320px;
+} 
+.wrapper #header { 
+	background:#fff url(images/header.jpg) no-repeat top; 
+	color:#25551a;
+	height:323px;
+} 
+
+.wrapper #tophead{
+	 background:url(images/top.jpg) no-repeat;
+	 padding: 7px 5px 5px 315px;
+	 color:#fff;
+	 height:114px;
+	 
+}
+
+.wrapper #header h1 {
+	margin: 0;
+	padding: 10px 0;
+}
+
+/* ------------------------ sidebar ------------------------- */
+.wrapper #sidebar1 {
+	float: left; 
+	width: 250px;
+	padding: 0 0 0 10px;
+	margin:35px 0 0;
+}
+
+
+/* ------------------------ maincontent ------------------------- */
+
+.wrapper #mainContent {
+ 	margin: 0 0 15px 240px;
+	padding:10px 0 0 5px; 
+	background:url(images/contbg.jpg) repeat-x;
+}
+.wrapper #mainContent h2{
+	padding-left:7px;
+}
+
+.wrapper #mainContent p {
+	padding:5px 10px 5px 10px;
+}
+
+.tollfree{ 
+	font-size:25px; 
+	color:#fff; 
+	font-variant:normal; 
+	font-weight:bold;
+	text-align:right;
+	padding:20px 10px;
+}
+
+.cont{ 
+	width:185px;
+	padding:5px 5px 5px 5px;
+}
+
+.topbox{ 
+	background: url(images/contbox.jpg) repeat-y top right;
+}
+
+.contbox{ 
+	background:url(images/topbox.jpg) no-repeat top right; 
+}
+.fotbox{ 
+	background:url(images/fotbox.jpg) no-repeat top right;
+	height:20px;
+}
+.wrap, .pad{ 
+	padding:10px 13px;
+}
+
+.pic{ 
+	float:left; 
+	padding:10px 5px 2px 5px;
+}
+
+.rightcont{ 
+	margin-left:230px;
+	padding-top:2px;
+	
+}
+.musiccat{ 
+	border-bottom:1px solid #E4E4E4;
+	padding:15px 0 15px 0;
+	
+	}
+
+label,input {
+	display: block;
+	width: 150px;
+	float: left;
+	margin-bottom: 5px;
+}
+
+label {
+	text-align: right;
+	width: 60px;
+	padding-right: 20px;
+	font-size:12px;
+}
+
+br {
+	clear: left;
+}
+
+.form1{ 
+	border:1px solid #cecece;
+	padding:2px;
+}
+
+.tabloid{
+padding-top:18px; 
+
+}
+
+.hold{
+	padding:5px 0 5px 0;
+	border-bottom:1px dashed #d0cece; 
+}
+
+.style1{ 
+	color:#333; 
+	font-size:12px; 
+	line-height:12px; 
+	padding-top:7px;
+}
+
+
+/* ------------------------ Footer ------------------------- */
+.wrapper #footer { 
+	padding: 0 15px;
+	background:#f79600;
+	color:#fff;
+} 
+.wrapper #footer p {
+	margin: 0; 
+	padding: 20px 0;
+	text-align:center;
+}
+
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+
+
+
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
